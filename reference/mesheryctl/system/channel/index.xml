@@ -40,7 +40,7 @@ mesheryctl system channel set [stable|stable-version|edge|edge-version]
 &lt;/h2&gt;
 &lt;pre class='codeblock-pre'&gt;
 &lt;div class='codeblock'&gt;
- --config string path to config file (default "/home/runner/.meshery/config.yaml")
+ --config string path to config file (default "~/.meshery/config.yaml")
  -c, --context string (optional) temporarily change the current context.
  -v, --verbose verbose output
  -y, --yes (optional) assume yes for user interactive prompts.
@@ -50,7 +50,7 @@ mesheryctl system channel set [stable|stable-version|edge|edge-version]
 &lt;h2 id="see-also"&gt;
 	See Also
 &lt;/h2&gt;
-&lt;p&gt;Go back to &lt;a href="/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/project/contributing/cli/cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-system-channel-switch</title><link>/reference/mesheryctl/system/channel/switch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/system/channel/switch/</guid><description>&lt;h1 id="mesheryctl-system-channel-switch"&gt;
+&lt;p&gt;Go back to &lt;a href="/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/project/contributing/cli/cli/#documenting"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-system-channel-switch</title><link>/reference/mesheryctl/system/channel/switch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/system/channel/switch/</guid><description>&lt;h1 id="mesheryctl-system-channel-switch"&gt;
 	mesheryctl system channel switch
 &lt;/h1&gt;
 &lt;p&gt;Switch release channel and version&lt;/p&gt;
@@ -92,7 +92,7 @@ mesheryctl system channel switch [stable|stable-version|edge|edge-version]
 &lt;/h2&gt;
 &lt;pre class='codeblock-pre'&gt;
 &lt;div class='codeblock'&gt;
- --config string path to config file (default "/home/runner/.meshery/config.yaml")
+ --config string path to config file (default "~/.meshery/config.yaml")
  -c, --context string (optional) temporarily change the current context.
  -v, --verbose verbose output
  -y, --yes (optional) assume yes for user interactive prompts.
@@ -102,7 +102,7 @@ mesheryctl system channel switch [stable|stable-version|edge|edge-version]
 &lt;h2 id="see-also"&gt;
 	See Also
 &lt;/h2&gt;
-&lt;p&gt;Go back to &lt;a href="/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/project/contributing/cli/cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-system-channel-view</title><link>/reference/mesheryctl/system/channel/view/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/system/channel/view/</guid><description>&lt;h1 id="mesheryctl-system-channel-view"&gt;
+&lt;p&gt;Go back to &lt;a href="/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/project/contributing/cli/cli/#documenting"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-system-channel-view</title><link>/reference/mesheryctl/system/channel/view/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/system/channel/view/</guid><description>&lt;h1 id="mesheryctl-system-channel-view"&gt;
 	mesheryctl system channel view
 &lt;/h1&gt;
 &lt;p&gt;View release channel and version&lt;/p&gt;
@@ -154,7 +154,7 @@ mesheryctl system channel view --all
 &lt;/h2&gt;
 &lt;pre class='codeblock-pre'&gt;
 &lt;div class='codeblock'&gt;
- --config string path to config file (default "/home/runner/.meshery/config.yaml")
+ --config string path to config file (default "~/.meshery/config.yaml")
  -c, --context string (optional) temporarily change the current context.
  -v, --verbose verbose output
  -y, --yes (optional) assume yes for user interactive prompts.
@@ -164,4 +164,4 @@ mesheryctl system channel view --all
 &lt;h2 id="see-also"&gt;
 	See Also
 &lt;/h2&gt;
-&lt;p&gt;Go back to &lt;a href="/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/project/contributing/cli/cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Go back to &lt;a href="/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/project/contributing/cli/cli/#documenting"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item></channel></rss>

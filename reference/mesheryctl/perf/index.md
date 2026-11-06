@@ -57,7 +57,7 @@ Display Perf profile in JSON or YAML:
 <pre class='codeblock-pre'>
 <div class='codeblock'>
 <div class='clipboardjs'>
-mesheryctl perf result -o json
+mesheryctl perf profile -o json
 
 </div>
 </div>
@@ -66,7 +66,7 @@ mesheryctl perf result -o json
 <pre class='codeblock-pre'>
 <div class='codeblock'>
 <div class='clipboardjs'>
-mesheryctl perf result -o yaml
+mesheryctl perf profile -o yaml
 
 </div>
 </div>
@@ -88,7 +88,7 @@ mesheryctl perf result -o yaml
 
 <pre class='codeblock-pre'>
 <div class='codeblock'>
-      --config string   path to config file (default "/home/runner/.meshery/config.yaml")
+      --config string   path to config file (default "~/.meshery/config.yaml")
   -v, --verbose         verbose output
 
 </div>
@@ -96,12 +96,13 @@ mesheryctl perf result -o yaml
 
 ## See Also
 
-Go back to [command reference index](/reference/mesheryctl/), if you want to add content manually to the CLI documentation, please refer to the [instruction](/project/contributing/cli/cli/#preserving-manually-added-documentation) for guidance.
+Go back to [command reference index](/reference/mesheryctl/), if you want to add content manually to the CLI documentation, please refer to the [instruction](/project/contributing/cli/cli/#documenting) for guidance.
 
 ---
 
 Section pages:
 
 - [mesheryctl-perf-apply](/reference/mesheryctl/perf/apply/)
+- [mesheryctl-perf-delete](/reference/mesheryctl/perf/delete/)
 - [mesheryctl-perf-profile](/reference/mesheryctl/perf/profile/)
 - [mesheryctl-perf-result](/reference/mesheryctl/perf/result/)

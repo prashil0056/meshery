@@ -60,6 +60,10 @@ By default, Meshery Server looks for Kubernetes configuration in the `/home/appu
 
 A custom location helps when you give a Meshery deployment a predefined Kubernetes context or mount kubeconfig files from a custom volume.
 
+## Installing in an Air-Gapped Environment
+
+If your cluster has no internet access, the chart and every image must be brought in from a private registry or loaded onto the nodes directly, and the operator-managed MeshSync and Broker images need special handling. See [Air-Gapped Installation](/installation/kubernetes/air-gapped/) for the full image list and procedure.
+
 ## Upgrading Meshery with Helm
 
 To upgrade an existing Meshery deployment:
@@ -263,10 +267,6 @@ Whichever way you installed Meshery, verify that Meshery is connected to your cl
 
 <div class="related-discussions">
   <h3>Recent Discussions with "meshery" Tag</h3><ul><li>
-          <a href="https://discuss.meshery.io/t/new-contributor-intro-vedit-agrawal-bughunterx2101-looking-to-pair-with-a-meshmate-for-meshery-ui-ai-adapter/8172" target="_blank" rel="noopener noreferrer">
-            New Contributor Intro: Vedit Agrawal (@BugHunterX2101) | Looking to pair with a MeshMate for Meshery UI &amp; AI Adapter
-          </a>
-        </li><li>
           <a href="https://discuss.meshery.io/t/looking-for-a-meshmate-seeking-an-experienced-meshery-contributor-as-a-guide/8166" target="_blank" rel="noopener noreferrer">
             Looking for a MeshMate: Seeking an Experienced Meshery Contributor as a Guide
           </a>
@@ -275,16 +275,20 @@ Whichever way you installed Meshery, verify that Meshery is connected to your cl
             Request to Reactivate My Slack Account
           </a>
         </li><li>
+          <a href="https://discuss.meshery.io/t/bug-new-catalog-publish-request-email-renders-with-oversized-social-icons-and-squashed-content-on-mobile/8138" target="_blank" rel="noopener noreferrer">
+            [Bug] &#34;New Catalog publish request&#34; email renders with oversized social icons and squashed content on mobile
+          </a>
+        </li><li>
+          <a href="https://discuss.meshery.io/t/new-contributor-intro-vedit-agrawal-bughunterx2101-looking-to-pair-with-a-meshmate-for-meshery-ui-ai-adapter/8172" target="_blank" rel="noopener noreferrer">
+            New Contributor Intro: Vedit Agrawal (@BugHunterX2101) | Looking to pair with a MeshMate for Meshery UI &amp; AI Adapter
+          </a>
+        </li><li>
           <a href="https://discuss.meshery.io/t/looking-for-a-meshmate-frontend-backend-cloud-native-development/8161" target="_blank" rel="noopener noreferrer">
             Looking for a MeshMate — Frontend, Backend &amp; Cloud-Native Development
           </a>
         </li><li>
           <a href="https://discuss.meshery.io/t/request-for-a-meshmate-active-meshery-contributor/8158" target="_blank" rel="noopener noreferrer">
             Request for a MeshMate — Active Meshery Contributor
-          </a>
-        </li><li>
-          <a href="https://discuss.meshery.io/t/bug-new-catalog-publish-request-email-renders-with-oversized-social-icons-and-squashed-content-on-mobile/8138" target="_blank" rel="noopener noreferrer">
-            [Bug] &#34;New Catalog publish request&#34; email renders with oversized social icons and squashed content on mobile
           </a>
         </li><li>
           <a href="https://discuss.meshery.io/t/how-to-present-an-issue-pr-in-a-development-meeting-feedback-wanted/8107" target="_blank" rel="noopener noreferrer">
